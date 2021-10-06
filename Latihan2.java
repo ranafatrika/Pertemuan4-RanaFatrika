@@ -9,7 +9,7 @@ public class Latihan2 {
 
         fatrika.useDelimiter("");
 
-        for (int i = 0; i < 8; i++) ;
+        for (int i = 0; i < 8; i++) {
         String karakter = fatrika.next();
         if (karakter.equals("(")) {
             stack.push("(");
