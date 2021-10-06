@@ -10,6 +10,7 @@ public class StackGeneric<T> {
         return top == 0;
     }
 
+
     public boolean isFull() {
         return top == soal.length;
     }
